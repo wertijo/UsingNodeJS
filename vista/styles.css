@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #14a6d3;
+    background-image:url('fondo.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
   }
   
   button[type="button"] {
-    background-color: #4CAF50;
+    background-color: #a71616 ;
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -52,5 +52,5 @@ body {
   }
   
   button[type="button"]:hover {
-    background-color: #45a049;
+    background-color: #a71616;
   }

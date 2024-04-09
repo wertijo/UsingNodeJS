@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pizzería JR</title>
+    <link rel="stylesheet" href="style_menu.css">
 </head>
 <body>
-    <h1>Esto es el Home de Pizzeria JR</h1>
+    <header>
+        <p id="usuario"> Bienvenido: <span id="nombre123"></span></p>
+        <h1 class="titulo-principal">Pizzería JR</h1>
+        <nav class="menu">
+            <ul>
+                <li><a onclick="mostrarProductos()">Productos</a></li>
+                <li><a onclick="mostrarPromociones()">Promociones</a></li>
+                <li><a onclick="mostrarPedidos()">Pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <!-- El contenido se mostrará dinámicamente aquí -->
+       
+    </main>
+
+    
+
+    <footer>
+        <p>&copy; 2024 Pizzería JR</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
